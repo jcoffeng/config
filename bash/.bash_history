@@ -833,3 +833,72 @@ git init
 git branch -m main
 startx
 sudo shutdown -r now
+stow -v polybar
+git init
+git branch -m main
+startx
+sudo shutdown -r now
+mkdir vim
+cd vim
+touch .vimrc
+vi .vimrc
+stow -v vim
+vim
+ls -la
+vi .xinitrc 
+mkdir nano
+touch nano/.nanorc
+vi nano/.nanorc 
+vi /usr/share/nano/sh.nanorc 
+cd dot
+cd dotfiles
+stow -v nano
+git status
+git add .
+git commit -m "Added nano and Vim"
+git push -v
+nano polybar/.config/polybar/launch.sh 
+cd ..
+vimtutor
+emacs
+exit
+startx
+sudo shutdown -h now
+mkdir nano
+touch nano/.nanorc
+vi nano/.nanorc 
+vi /usr/share/nano/sh.nanorc 
+cd dot
+stow -v nano
+git status
+git add .
+git commit -m "Added nano and Vim"
+git push -v
+nano polybar/.config/polybar/launch.sh 
+vimtutor
+emacs
+startx
+sudo shutdown -h now
+mkdir -p dotfiles/fish/.config/fish/
+mv -v .config/fish/fish_variables dotfiles/fish/.config/fish/
+touch dotfiles/fish/.config/fish/config.fish
+rmdir .config/fish/
+stow -v fish
+cd .config/
+cd fish/
+fish
+pwd
+pbpaste > polybar/.config/polybar/config
+cat polybar/.config/polybar/config
+cat polybar/.config/polybar/launch.sh
+cd dotfiles
+wget -v `pbpaste`
+ls -la
+rm polybar/.config/polybar/config
+mv config polybar/.config/polybar/config
+vi polybar/.config/polybar/config
+cd ..
+.config/polybar/launch.sh 
+exit
+eselect locale list
+exit
