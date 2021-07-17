@@ -772,3 +772,64 @@ exit
 startx
 shutdown -h now
 sudo shutdown -h now
+exit
+shutdown -h now
+sudo shutdown -h now
+ ls -la
+cd ..
+cd dotfiles
+ls -la
+git add .
+git status
+git commit -m "First commit hp-15ck094nd Gentoo 5.10.49-r1"
+git remote add origin `pbpaste`
+git remote -v
+git push -u origin main
+ntpd
+lsblk
+exit
+mkdir -p dotfiles/dconf/.config/dconf
+mv -v polybar/config ~/dotfiles/polybar/.config/polybar
+mv -v polybar/launch.sh ~/dotfiles/polybar/.config/launch.sh
+mv -v polybar/config3 ~/dotfiles/polybar/.config/polybar
+mv -v redshift/config3 ~/dotfiles/redshift/.config/redshift
+mv -v redshift/redshift.conf ~/dotfiles/redshift/.config/redshift
+su
+git add .
+git commit -m "First commit hp-15ck094nd Gentoo 5.10.27"
+git remote -v
+git add origin git@github.com:jcoffeng/config.git
+vi .git/config 
+branch
+git branch 
+git remote add origin git@github.com:jcoffeng/config.git
+git push --set-upstream origin main
+git fetch
+git pull --set-upstream-to=origin/main main
+git branch --set-upstream-to=origin/main main
+git pull --allow-unrelated-histories
+git pull
+git push
+exit
+shutdown -h now
+sudo shutdown -h now
+cd .config
+cd rofi
+cd .config/rofi
+cd polybar
+cd .conf
+stow -u polybar
+stow -D polybar
+cd .config/polybar
+cd dotfiles
+cd .config/
+mv launch.sh polybar/
+cd polybar/
+cd ..
+stow -v polybar
+git status
+ls -la
+git init
+git branch -m main
+startx
+sudo shutdown -r now
