@@ -902,3 +902,10 @@ cd ..
 exit
 eselect locale list
 exit
+startx
+cd dotfiles
+git status
+git add .
+git commit -m "Added a fish"
+git push
+sudo shutdown -h now
