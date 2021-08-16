@@ -909,3 +909,111 @@ git add .
 git commit -m "Added a fish"
 git push
 sudo shutdown -h now
+sudo shutdown -h now
+vi .bashrc 
+vi dotfiles/fish/.config/fish/config.fish 
+fish
+clear
+su
+exit
+perl -v
+perlintro
+perl perlintro
+perldoc perlintro
+exit
+git push
+startx
+sudo shutdown -h now
+startx
+sudo shutdown -h now
+uname -a
+sudo shutdown -h now
+screenfetch
+exit
+startx
+sudo shutdown -h now
+cd Downloads
+chmod +x balenaEtcher-1.5.121-x64.AppImage 
+mv -v balenaEtcher-1.5.121-x64.AppImage ../AppImage/
+cd ..
+cd AppImage/
+ls -la
+./balenaEtcher-1.5.121-x64.AppImage 
+exit
+cd AppImage/
+ls -la
+./balenaEtcher-1.5.121-x64.AppImage 
+exit
+startx
+sudo shutdown -h now
+curl https://getfedora.org/static/fedora.gpg | gpg --import
+cd Downloads/
+gpg --verify-files Fedora-Spins-34-1.2-x86_64-CHECKSUM 
+sha256sum -c Fedora-i3-Live-x86_64-34-1.2.iso 
+sha256sum -c Fedora-Spins-34-1.2-x86_64-CHECKSUM 
+ranger
+mv -v balena-etcher-electron-1.5.121-linux-ia32.zip ~/
+cd ..
+unzip balena-etcher-electron-1.5.121-linux-ia32.zip 
+rm -r balena-etcher-electron-1.5.121-linux-ia32.zip 
+ls -la
+chmod +x balenaEtcher-1.5.121-ia32.AppImage 
+mkdir AppImage
+mv -v balenaEtcher-1.5.121-ia32.AppImage AppImage/
+cd AppImage/
+./balenaEtcher-1.5.121-ia32.AppImage 
+su
+startx
+su
+git clone `pbpaste
+git clone `pbpaste`
+exit
+ls -latr
+fish
+exit
+startx
+sudo shutdown -h now
+su
+exit
+startx
+sudo shutdown -h now
+mv -v balena-etcher-electron-1.5.121-linux-ia32.zip ~/
+unzip balena-etcher-electron-1.5.121-linux-ia32.zip 
+rm -r balena-etcher-electron-1.5.121-linux-ia32.zip 
+chmod +x balenaEtcher-1.5.121-ia32.AppImage 
+mkdir AppImage
+mv -v balenaEtcher-1.5.121-ia32.AppImage AppImage/
+cd AppImage/
+./balenaEtcher-1.5.121-ia32.AppImage 
+startx
+git clone `pbpaste
+ls -latr
+fish
+startx
+sudo shutdown -h now
+startx
+sudo shutdown -h now
+git clone `pbpaste`
+cd i3
+ls -la
+mv -v i3 dracula
+vim dracula/.config/i3/config 
+vim .config/i3/config 
+mkdir dotfiles/i3status
+mkdir -p dotfiles/i3status/.config/i3status
+pbpaste >> dotfiles/i3status/.config/i3status/config
+stow -v i3status
+vim i3status/.config/i3status/config
+su
+cd ..
+vim i3status.conf 
+i3status.conf > pbcopy
+i3status.conf | pbcopy
+cat i3status.conf | pbcopy
+pbpaste >> dotfiles/i3status/.config/i3status/config 
+vim dotfiles/i3status/.config/i3status/config 
+cd dotfiles
+vim i3/.config/i3/config 
+vim i3status/.config/i3status/config 
+exit
+exit
