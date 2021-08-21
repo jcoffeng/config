@@ -1248,3 +1248,51 @@ vim dotfiles/x11/.Xresources
 xrdb -merge .Xresources 
 exit
 exit 
+cd dotfiles
+git status
+git add .
+git commit -m "fixed copy paste functionality"
+git push
+ exit
+git status
+git add .
+git commit -m "fixed copy paste functionality"
+git push
+ exit
+vim dotfiles/i3status/.config/i3status/
+i3status
+vim dotfiles/i3status/.config/i3status/config 
+vim dotfiles/i3/.config/i3/config 
+vim dotfiles/polybar/.config/polybar/config
+exit
+vim dotfiles/i3status/.config/i3status/config 
+vim dotfiles/i3/.config/i3/config 
+vim dotfiles/polybar/.config/polybar/config
+cd .local/share/fonts
+mkdir -p .local/share/fonts
+exit
+vim i3status/.config/i3status/
+vim i3status/.config/i3status/config 
+git add .
+git status
+git commit -m "Added Dracula tweaks"
+git push
+exit
+sudo shutdown -h now
+exit
+startx
+shutdown -r now
+sudo shutdown -r now
+sudo shutdown -h now
+startx
+shutdown -r now
+sudo shutdown -r now
+su
+polybar
+fc-match FontAwesome
+fc-match "Font Awesome 5"
+dotfiles/polybar/.config/polybar/launch.sh 
+fc-list | grep -i "awesome"
+vim dotfiles/polybar/.config/polybar/config
+vim dotfiles/i3/.config/i3/config 
+exit

@@ -43,7 +43,7 @@ alert-foreground = #002b36
 [bar/gab]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 17
+height = 30
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 0
@@ -52,8 +52,10 @@ fixed-center = false
 background = ${colors.background-main}
 foreground = ${colors.foreground}
 
-
-font-0 = "3270Medium Nerd Font:style=Medium:size=10;2"
+;emerge --ask media-fonts/fontsawesome, then fc-list | grep -i awesome
+;eselect fontconfig list
+;also able to place fonts in .local/share/fonts
+font-0 = "Font Awesome 5 Free,Font Awesome 5 Free Solid:style=Solid" 
 
 modules-left = i3
 modules-center =
