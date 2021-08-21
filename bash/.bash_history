@@ -1017,3 +1017,169 @@ vim i3/.config/i3/config
 vim i3status/.config/i3status/config 
 exit
 exit
+mkdir AppImage
+mv -v balenaEtcher-1.5.121-ia32.AppImage AppImage/
+cd AppImage/
+./balenaEtcher-1.5.121-ia32.AppImage 
+startx
+git clone `pbpaste
+git clone `pbpaste`
+ls -latr
+fish
+startx
+sudo shutdown -h now
+startx
+sudo shutdown -h now
+mv -v balena-etcher-electron-1.5.121-linux-ia32.zip ~/
+unzip balena-etcher-electron-1.5.121-linux-ia32.zip 
+rm -r balena-etcher-electron-1.5.121-linux-ia32.zip 
+chmod +x balenaEtcher-1.5.121-ia32.AppImage 
+mkdir AppImage
+mv -v balenaEtcher-1.5.121-ia32.AppImage AppImage/
+cd AppImage/
+./balenaEtcher-1.5.121-ia32.AppImage 
+startx
+git clone `pbpaste
+ls -latr
+fish
+startx
+sudo shutdown -h now
+startx
+sudo shutdown -h now
+git clone `pbpaste`
+mv -v i3 dracula
+vim dracula/.config/i3/config 
+vim .config/i3/config 
+mkdir dotfiles/i3status
+mkdir -p dotfiles/i3status/.config/i3status
+pbpaste >> dotfiles/i3status/.config/i3status/config
+vim i3status.conf 
+i3status.conf > pbcopy
+i3status.conf | pbcopy
+cat i3status.conf | pbcopy
+pbpaste >> dotfiles/i3status/.config/i3status/config 
+vim dotfiles/i3status/.config/i3status/config 
+mkdir compton
+mkdir -p compton/i3/.config/i3
+pbpaste >> compton/i3/.config/i3/compton.conf
+vim i3/.config/i3/config 
+vim config 
+cd i3status
+ls -lah
+cd .config
+cd i3
+cd .config/i3
+vim .config/i3status/config 
+vim i3status/.config/i3status/config
+rm .config/i3status/config 
+cd .config/i3status/
+ls -la
+cd i3status/
+cd .. 
+stow -u i3status
+stow -D i3status
+su
+../i3status.conf >> i3status/.config/i3status/config
+~/i3status.conf >> i3status/.config/i3status/config
+cd ..
+i3status.conf > dotfiles/i3status/.config/i3status/config
+cat i3status.conf > dotfiles/i3status/.config/i3status/config
+cd dotfiles
+stow -v i3status
+vim i3status/.config/i3status/
+vim i3status/.config/i3status/config 
+git add .
+git status
+git commit -m "Added Dracula tweaks"
+git push
+exit
+sudo shutdown -h now
+startx
+exit
+cd dotfiles
+ls -la
+cd //
+cd ..
+exit
+vim i3status/.config/i3status/
+vim i3status/.config/i3status/config 
+git add .
+git status
+git commit -m "Added Dracula tweaks"
+git push
+sudo shutdown -h now
+startx
+cd //
+mkdir dotfiles/x11
+touch dotfiles/x11/.Xresources
+pbpaste >> dotfiles/x11/.Xresources 
+cd bash
+vim .Xresources 
+.Xresources >> dotfiles/x11/.Xresources 
+cat .Xresources >> dotfiles/x11/.Xresources 
+vim dotfiles/x11/.Xresources 
+rm .Xre
+rm .Xresources 
+cd dotfiles
+stow -v x11
+cd ..
+ls -la
+exit
+cd ..
+ls -la
+pbpaste >> .Xdefaults
+vim .Xdefaults
+exit
+exit
+vim .Xresources 
+vim .Xdefaults 
+exit
+exit
+ls -la
+cd ..
+ls -la
+pbpaste >> .Xdefaults
+vim .Xdefaults
+vim .Xdefaults 
+vim .Xresources 
+xrdb -merge .Xresources 
+xrdb -query
+exit
+vim .Xdefaults 
+xrdb -query
+.Xdefaults >> .Xresources 
+cat .Xdefaults >> .Xresources 
+vim .Xresources 
+stow -Dv x11
+mv -v .Xdefaults Xdefo
+cd dotfiles
+stow -v x11
+cd ..
+xrdb -merge .Xresources 
+exit
+vim Xdefo 
+vim .Xresources 
+rm Xdefo 
+xrdb -merge .Xresources 
+exit
+vim .Xresources 
+rm Xdefo 
+xrdb -merge .Xresources 
+cd ..
+cat .Xauthority 
+clear
+cat .Xinitrc
+vim
+cat .xinitrc
+cp -v .xinitrc dotfiles/x11/
+rm .xinitrc 
+cp xorg_nvidia.conf dotfiles/
+cd dotfiles
+stow -Dv x11
+stow -v x11
+ls -la
+mkdir video_cards
+mkdir video_cards/nvidia
+vim /etc/portage/make.conf
+cp ~/xorg_nvidia.conf video_cards/nvidia/
+exit
