@@ -4,11 +4,11 @@ URxvt.scrollBar:	false
 URxvt.depth:		32
 !URxvt.background	[70]#000000
 
-xterm*VT100.Translations: #override 
-      Shift <KeyPress> Insert: insert-selection(CLIPBOARD) 
-      Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) 
-      Ctrl Shift <Key>C:    copy-selection(CLIPBOARD) 
-      Ctrl <Btn1Up>: exec-formatted("xdg-open '%t'", PRIMARY)
+xterm*vt100.translations: #override \n\
+        Shift <KeyPress> Insert: insert-selection(CLIPBOARD) \n\
+        Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+        Ctrl Shift <Key>C:    copy-selection(CLIPBOARD) \n\
+        Ctrl <Btn1Up>: exec-formatted("xdg-open '%t'", PRIMARY)
 
 
 !fonts&stuff

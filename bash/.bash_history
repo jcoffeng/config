@@ -1183,3 +1183,68 @@ mkdir video_cards/nvidia
 vim /etc/portage/make.conf
 cp ~/xorg_nvidia.conf video_cards/nvidia/
 exit
+vim
+cat .xinitrc
+cp -v .xinitrc dotfiles/x11/
+rm .xinitrc 
+cp xorg_nvidia.conf dotfiles/
+stow -Dv x11
+stow -v x11
+mkdir video_cards
+mkdir video_cards/nvidia
+vim /etc/portage/make.conf
+cp ~/xorg_nvidia.conf video_cards/nvidia/
+git status
+git commit -m "Added ctrl + shift + c|v copy paste for xterm"
+cd .config/i3status/
+ls -la
+stow -D i3status
+cd dotfiles/
+mv i3status status
+stow -v status
+stow -D status
+mv status i3status
+cd ..
+mkdir -p .config/i3status/
+cd dotfiles
+stow -v i3status
+touch README
+mv -v README README.md
+man stow
+vim README.md 
+git add .
+git commit -m "Added readme"
+git push
+exit
+git add .
+git commit -m "Added readme"
+git push
+vim dotfiles/X11/.Xresources
+cd dotfiles
+cd x11
+ls -la
+vim .Xresources 
+cd ..
+cd .Xresources 
+ls -la 
+xrdb -merge .Xresources 
+xrdb -load .Xresources 
+xrdb -query .Xresources 
+exit
+exit
+xrdb -merge .Xresources 
+exit
+xrdb -merge .Xresources 
+cd dotfiles/x11/.xinitrc 
+vim dotfiles/x11/.xinitrc 
+exit
+exit
+xrdb -query .Xresources 
+vim dotfiles/x11/.Xresources 
+exit
+vim dotfiles/x11/.Xresources 
+exit
+vim dotfiles/x11/.Xresources 
+xrdb -merge .Xresources 
+exit
+exit 
