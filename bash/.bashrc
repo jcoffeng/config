@@ -21,3 +21,6 @@ alias pbpaste='xsel --clipboard --output'
 HISTSIZE=10000
 HISTCONTROL=erasedups
 setterm blength 0
+
+export VISUAL=vim
+export EDITOR="$VISUAL"

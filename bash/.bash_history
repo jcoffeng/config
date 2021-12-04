@@ -1296,3 +1296,314 @@ fc-list | grep -i "awesome"
 vim dotfiles/polybar/.config/polybar/config
 vim dotfiles/i3/.config/i3/config 
 exit
+fc-match FontAwesome
+fc-match "Font Awesome 5"
+vim dotfiles/polybar/.config/polybar/config
+vim dotfiles/i3/.config/i3/config 
+fc-list | grep -i "awesome"
+dotfiles/polybar/.config/polybar/launch.sh 
+su
+cd dotfiles
+vim portage_requested_emerges.txt 
+mkdir gentoo_config
+mv equery_list_wildcard.txt gentoo_config/
+mv portage_requested_emerges.txt gentoo_config/
+ls -la
+git commit -m "Added package installs"
+cd gentoo_config/
+vim README.md
+cd ..
+git add .
+git commit -m "added readme"
+git push
+ exot
+exit
+ifconfig
+ip link
+iw dev wlo1 info
+su
+exit
+shutdown -r now
+sudo shutdown -r now
+polybar
+fc-match FontAwesome
+fc-match "Font Awesome 5"
+vim dotfiles/i3/.config/i3/config 
+vim dotfiles/polybar/.config/polybar/launch.sh 
+:q
+fc-list | grep -i "awesome"
+cd dotfiles
+cd Downloads/
+unzip 3270.zip 
+ls -la
+cd ..
+vim dotfiles/polybar/.config/polybar/config
+dotfiles/polybar/.config/polybar/launch.sh 
+su
+exit
+dotfiles/polybar/.config/polybar/launch.sh 
+vim dotfiles/polybar/.config/polybar/config
+exit
+:q
+fc-list | grep -i "awesome"
+cd Downloads/
+unzip 3270.zip 
+vim dotfiles/polybar/.config/polybar/config
+dotfiles/polybar/.config/polybar/launch.sh 
+su
+exit
+dotfiles/polybar/.config/polybar/launch.sh 
+vim dotfiles/polybar/.config/polybar/config
+exit
+mkdir -p portage/etc/portage/package.use/
+mv -v portage dotfiles/portage
+cd dotfiles
+cp /etc/portage/package.use/* dotfiles/portage/etc/portage/package.use/
+cd dotfiles/portage/etc/portage/package.use/
+ls -la
+cd ..
+git add portage
+git commit -m "added individual package use flags"
+git push
+clear
+git status
+git stash polybar/.config/polybar/config
+cd polybar
+git checkout -- .
+vim polybar/.config/polybar/config
+vim .config/polybar/config
+exit
+ip link
+dotfiles/polybar/.config/polybar/launch.sh 
+su
+sudo openrc-shutdown --halt
+shutdown -r now
+sudo shutdown -r now
+startx
+sudo shutdown -r now
+startx
+vim dotfiles/i3/.config/i3/config 
+man shutdown
+vim dotfiles/polybar/.config/polybar/config
+startx
+ls -la
+mkdir sftp
+mkdir sftp/herconfiguraties
+exit
+sftp sftp_@herconfiguraties.nl@ssh.strato.com
+cls
+clear
+cd sftp/herconfiguraties/
+ls -la
+cd ..
+cd .. 
+exit
+startx
+exit
+startx
+sudo shutdown -h now
+ls -la
+ranger
+su
+vim dotfiles/bash/.bashrc 
+exit
+ls -la
+vim dotfiles/bash/.bashrc 
+ranger
+cat gksosreport.txt > pbcopy
+cat gksosreport.txt | pbcopy
+lsblk
+blkid
+su
+exit
+startx
+sudo shutdown -h now
+exit
+startx
+shutdown -h now
+sudo shutdown -h now
+startx
+exit
+startx
+sudo shutdown -h now
+inxi -b
+exit
+startx
+sudo shutdown -h now
+startx
+sudo shutdown -h now
+su
+exit
+startx
+sudo shutdown -h now
+startx
+sudo shutdown -h now
+su
+exit
+startx
+sudo shutdown -h now
+echo *
+exit
+startx
+sudo shutdown -h now
+startx
+sudo shutdown -h now
+startx
+sudo shutdown -h now
+startx
+shutdown -h now
+sudo shutdown -h now
+sudo shutdown -h now
+su
+lsd
+lsd -la
+exit
+startx'
+startx
+shutdown -h now
+sudo shutdown -h now
+startx
+sudo shutdown -h now
+su
+elinks
+exit
+sudo shutdown -h now
+cd Downloads/
+pdfimages document8okt.pdf image8okt
+pdfimages document9okt.pdf image9okt
+zbar image8okt-002.ppm 
+zbarimg image8okt-002.ppm 
+ranger
+zbarimg image8okt-001.ppm 
+zbarimg image9okt-001.ppm 
+zbarimg image9okt-001.ppm  > 9okt-qrcode.txt
+zbarimg image8okt-001.ppm  > 8okt-qrcode.txt
+cat 8okt-qrcode.txt 
+vimdiff 8okt-qrcode.txt 9okt-qrcode.txt 
+su
+startx
+su
+. /etc/profile
+startx
+sudo shutdown -h now
+su
+exit
+startx
+sudo shutdown -h now
+df -Th
+su
+startx
+df -Th
+su
+startx
+cd Downloads/
+pdftk
+pdfjam
+pdfseparate
+pdfseparate -f 2 35cdc7b3b95bd9b71fff181b24b5c0f5688c5257.pdf mobiel-%d.pdf
+rm mobiel-2.pdf 
+rm mobiel-3.pdf 
+pdfunite mobiel-1.pdf mobiel-2.pdf 
+pdfseparate -f 1 -l 2 35cdc7b3b95bd9b71fff181b24b5c0f5688c5257.pdf mobiel-%d.pdf
+pdfunite mobiel-1.pdf mobiel-2.pdf kpnmobiel.pdf
+ranger
+startx
+sudo shutdown -h now
+su
+startx
+sudo shutdown -h now
+nvim
+whatis ls
+whatis cd
+whatis bash
+whatis zsh
+whatis tar
+exit
+startx
+sudo shutdown -h now
+. /etc/profile
+startx
+sudo shutdown -h now
+su
+exit
+startx
+sudo shutdown -r now
+su
+exit
+exit
+su
+startx
+sudo shutdown -r now
+su
+nvim learnToScript.sh
+chmod +x learnToScript.sh 
+./learnToScript.sh 
+lsd -l | grep learn
+ls -l /etc | less
+command1=`ls`
+echo command1
+echo command2
+command2='hello'
+command2=$(ls)
+command2=`ls`
+echo $command2
+su -c 'grep -r jpublic /etc/'
+su -c 'grep -r public /etc/'
+su -c 'grep -r public /etc/' | less
+exit
+startx
+sudo shutdown -h now
+su
+exit
+startx
+sudo shutdown -r now
+exit
+startx
+sudo shutdown -h now
+exit
+startx
+sudo shutdown -h now
+startx
+sudo shutdown -h now
+exit
+su
+startx
+startx
+sudo shutdown -h now
+su
+startx
+su
+startx
+su
+startx
+su
+exit
+su
+sudo shutdown -r now
+startx
+startx
+sudo shutdown -h now
+df -Th
+exit
+su
+sudo shutdown -r now
+startx
+su
+cp -v /mnt/windows/Data\ Jonathan/Downloads/Con_gusto_2.zip Downloads/
+cd Downloads/
+unzip Con_gusto_2.zip 
+exit
+startx
+sudo shutdown -h now
+exit
+su
+startx
+exit
+mpg123
+su
+exit
+su
+ranger
+exit
+ranger
+exit
