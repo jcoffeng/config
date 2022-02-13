@@ -28,12 +28,13 @@ font pango:Terminus 12px
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+# exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 exec --no-startup-id feh --bg-scale /home/jonathan/Pictures/968860.jpg
+exec --no-startup-id xautolock -locker "/home/jonathan/dotfiles/i3lock/rickandmorty.sh" -time 10 -detectsleep -notify 10
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # Use pactl to adjust volume in PulseAudio.
@@ -51,6 +52,8 @@ bindsym $mod+Return exec i3-sensible-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
+
+bindsym $mod+Shift+x exec xautolock -locknow 
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec dmenu_run
